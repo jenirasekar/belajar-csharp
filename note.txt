@@ -1,0 +1,12 @@
+codeacademy
+When using operators, it’s important to pay attention to data types. If we use two integers, it will return an integer every time. However, if we combine an integer with a double, the answer will be a double. Let’s look at the following example:
+
+Console.WriteLine(5 / 3);
+Console.WriteLine(5 / 3.0);
+ 
+// prints 1
+// prints 1.66667
+
+If we need to use a decimal value, we have a few options: float, double, and decimal. These values are useful for anything that requires more precision than a whole number, like measuring the precise location of an object in 3D space.
+
+A double is usually the best choice of the three because it is more precise than a float, but faster to process than a decimal. However, make sure to use a decimal for financial applications, since it is the most precise.
