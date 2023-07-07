@@ -58,6 +58,41 @@
             // Console.WriteLine(newEarthAge);
             // Console.WriteLine(newJupiterAge);
 
+            // 2 steps forward 1 step back
+            // declare steps variable
+            // int steps = 0;
+            // // Two steps forward 
+            // steps += 2;
+            // // One step back 
+            // steps -= 1;
+            // // Print result to the console
+            // Console.WriteLine(steps);
+
+            // modulus
+            // Number of students
+            // int students = 18;
+            // // Number of students in a group
+            // int groupSize = 5;
+            // // Does groupSize go evenly into students?
+            // Console.WriteLine(students % groupSize);
+
+            // Create variables 
+            // int numberOne = 12932;
+            // int numberTwo = -2828472;
+            // // Use built-in methods and save to variable 
+            // double numberOneSqrt = Math.Floor(Math.Sqrt(numberOne));
+            // // Use built-in methods and save to variable 
+            // double numberTwoSqrt = Math.Floor(Math.Sqrt(Math.Abs(numberTwo)));
+            // // Print the lowest number
+            // Console.WriteLine(Math.Min(numberTwoSqrt, numberOneSqrt));
+            // double numberOne = 6.5;
+            // double numberTwo = 4;
+            // // Raise numberOne to the numberTwo power
+            // Console.WriteLine(Math.Pow(numberOne, numberTwo));
+            // // Round numberOne up
+            // Console.WriteLine(Math.Ceiling(numberOne));
+            // // Find the larger number between numberOne and numberTwo
+            // Console.WriteLine(Math.Max(numberOne, numberTwo));
 
         }
     }
