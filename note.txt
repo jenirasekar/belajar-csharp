@@ -14,3 +14,44 @@ Math.Abs()—will find the absolute value of a number. Example: Math.Abs(-5) ret
 Math.Sqrt()—will find the square root of a number. Example: Math.Sqrt(16) returns 4.
 Math.Floor()—will round the given double or decimal down to the nearest whole number. Example: Math.Floor(8.65) returns 8.
 Math.Min()—returns the smaller of two numbers. Example: Math.Min(39, 12) returns 12.
+
+esc chars
+What happens when you need to include quotes in a string? You can use an escape sequence. An escape sequence places a backslash (\) before the inner quotation marks, so the program doesn’t read them accidentally as the end of sequence.
+string withoutSlash = "Ifemelu said, "Hello!"";
+string withSlash = "Ifemelu said, \"Hello!\"";
+We can use escape character sequences to create a newline. That means that when we print the string to the console, it will print that line below the rest. If printed on its own, it will create an empty line. To create a newline, use the character combination \n.
+string newLine = "Ifemelu walked \n to the park.";
+
+string methods
+Length
+Since strings are composed of a set of characters, we can find out how many characters exist in a string with the .Length method. A common example is if we’re building a form and need to make sure a user submission doesn’t exceed a certain character length.
+string userTweet = Console.ReadLine();
+userTweet.Length; // returns the length of the tweet
+We append the .Length property to a string that we have, such as a user’s tweet.
+IndexOf
+We can also find the position of a specific character or substring using .IndexOf(). This method is useful for searching to see if something exists in a string.
+If it does exist within a string, the method will return the position of the search term in the larger string. Each character in a string has a unique position, like an address. Positions starts at 0 and increment by 1.
+string word = "radio";
+word.IndexOf("a"); // returns 1
+
+.Substring() grabs part of a string using the specified character position, continues until the end of the string, and returns a new string. .IndexOf() is usually used first to get the specific character position.
+string plantName = "Cactaceae, Cactus"; 
+int charPosition = plantName.IndexOf("Cactus"); // returns 11
+string commonName = plantName.Substring(charPosition); // returns Cactus
+.Substring() is useful if we only want to use part of a string but keep the original data intact. So in this instance, we want to keep the string plantName, but just grab the "Cactus" portion of the string. We use .IndexOf() to find where "Cactus" starts, then use .Substring() with the position information to save "Cactus" to the new variable commonName.
+We can also pass .Substring() a second argument, which will determine the number of characters in the resulting substring. For example, the following code shows how we can use .Substring() with two arguments to specify the length of our substring:
+string name = "Codecademy"; 
+int start = 2;
+int length = 6;
+string substringName = name.Substring(start, length); // returns 'decade'
+Bracket Notation
+Bracket notation is a style of syntax that uses brackets [] and an integer value to identify a particular value in a collection. In this case, we can use it to find a specific character in a string.
+string plantName = "Cactaceae, Cactus";
+int charPosition = plantName.IndexOf("u"); // returns 15
+char u = plantName[charPosition]; // returns u
+Similar to the example above, we first use .IndexOf() to grab the character position, which in this case is 15. We then take the string value and append it with a set of brackets [] and place the charPosition value inside the brackets.
+ToUpper, ToLower
+We can quickly change the case of our strings using the methods .ToUpper() and .ToLower(). These methods are useful if we want to make our text look like an e.e. cumming’s poem or make it appear like we forgot to turn off our caps lock key.
+string shouting = "I'm not shouting, you're shouting".ToUpper();
+Console.WriteLine(shouting);
+// prints I'M NOT SHOUTING, YOU'RE SHOUTING.
