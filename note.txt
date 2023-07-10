@@ -55,3 +55,23 @@ We can quickly change the case of our strings using the methods .ToUpper() and .
 string shouting = "I'm not shouting, you're shouting".ToUpper();
 Console.WriteLine(shouting);
 // prints I'M NOT SHOUTING, YOU'RE SHOUTING.
+
+overloading
+What’s happening here is called method overloading, and each “version” is called an overload. Though they have the same name, the overloads are different because they have either (i) different parameter types or (ii) different number of parameters. This is useful if you want the same method to have different behavior based on its inputs.
+Let’s examine this concept with these two overloads: Math.Round(Double, Int32) and Math.Round(Double).
+The first overload, Math.Round(Double, Int32), rounds the double to the int‘s number of decimal points
+Math.Round(3.14159, 2); // returns 3.14
+The second, Math.Round(Double), rounds the double to the nearest integer.
+Math.Round(3.14159); // returns 3
+In C#, when we say that the methods are “different”, we are really talking about their method signatures, which is the method’s name and parameter types in order.
+For example, both methods above are named Round(), but one has Double and Int32 parameters, and the other has a Double parameter.
+
+method calls input
+- Values passed to a method are called arguments. When defined in the method, they are parameters.
+- Method parameters can only be used within the method body.
+- Method parameters can be optional if given a default value using equals = syntax:
+- static void VisitPlanets(int numberOfPlanets = 0)
+- When calling a method, pass arguments by position or by name. If using names, use the colon (:) syntax:
+- VisitPlanets(numberOfPlanets: 9);
+- In method overloading, multiple methods can have the same name, as long as they have different method signatures.
+- A method signature is a method’s name and parameter types in order.

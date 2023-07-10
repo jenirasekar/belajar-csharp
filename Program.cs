@@ -156,21 +156,51 @@
             // DNA mutation search
             Console.WriteLine(dna[3]); */
 
-           /*  // Script line
-            string script = "Close on a portrait of the HANDSOME PRINCE -- as the BEAST'S giant paw slashes it.";
-            // Get camera directions
-            int charPosition = script.IndexOf("Close");
-            int length = "Close on".Length;
-            string cameraDirections = script.Substring(charPosition, length);
-            // Get scene description
-            charPosition = script.IndexOf("a portrait");
-            string sceneDescription = script.Substring(charPosition);
-            // Make camera directions uppercase
-            cameraDirections = cameraDirections.ToUpper();
-            // Make scene description lowercase
-            sceneDescription = sceneDescription.ToLower();
-            // Print results
-            Console.WriteLine($"{cameraDirections} {sceneDescription}"); */
+            /*  // Script line
+             string script = "Close on a portrait of the HANDSOME PRINCE -- as the BEAST'S giant paw slashes it.";
+             // Get camera directions
+             int charPosition = script.IndexOf("Close");
+             int length = "Close on".Length;
+             string cameraDirections = script.Substring(charPosition, length);
+             // Get scene description
+             charPosition = script.IndexOf("a portrait");
+             string sceneDescription = script.Substring(charPosition);
+             // Make camera directions uppercase
+             cameraDirections = cameraDirections.ToUpper();
+             // Make scene description lowercase
+             sceneDescription = sceneDescription.ToLower();
+             // Print results
+             Console.WriteLine($"{cameraDirections} {sceneDescription}"); */
+
+            // capture output
+            // string designer = "Anders Hejlsberg";
+            // int indexOfSpace = designer.IndexOf(" ");
+            // string secondName = designer.Substring(indexOfSpace);
+            // Console.WriteLine(secondName);
+
+            // // call method param
+            // VisitPlanets(2);
+            // VisitPlanets(3);
+            // VisitPlanets(4);
+
+            // static void VisitPlanets(int numberOfPlanets)
+            // {
+            //     Console.WriteLine($"You visited {numberOfPlanets} new planets...");
+            // }
+
+            // VisitPlanets();
+            // VisitPlanets(numberOfPlanets: 2);
+            // VisitPlanets(numberOfPlanets: 2, name: "sekar");
+
+            // static void VisitPlanets(
+            //   string adjective = "brave",
+            //   string name = "Cosmonaut",
+            //   int numberOfPlanets = 0,
+            //   double gForce = 4.2)
+            // {
+            //     Console.WriteLine($"Welcome back, {adjective} {name}.");
+            //     Console.WriteLine($"You visited {numberOfPlanets} new planets...");
+            //     Console.WriteLine($"...while experiencing a g-force of {gForce} g!");
+            }
         }
     }
-}
