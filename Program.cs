@@ -178,7 +178,7 @@
             // string secondName = designer.Substring(indexOfSpace);
             // Console.WriteLine(secondName);
 
-            // // call method param
+            // call method param
             // VisitPlanets(2);
             // VisitPlanets(3);
             // VisitPlanets(4);
@@ -201,6 +201,52 @@
             //     Console.WriteLine($"Welcome back, {adjective} {name}.");
             //     Console.WriteLine($"You visited {numberOfPlanets} new planets...");
             //     Console.WriteLine($"...while experiencing a g-force of {gForce} g!");
-            }
+
+            // return
+            //     Console.WriteLine(DecoratePlanet("Mars"));
+            //     Console.WriteLine("Is Pluto really a dwarf...?");
+            //     Console.WriteLine(IsPlutoADwarf());
+            //     Console.WriteLine("Then how many planets are there in the galaxy...?");
+            //     Console.WriteLine(CountThePlanets());
+            // }
+            // static string DecoratePlanet(string planet)
+            // {
+            //     return $"*..*..* Welcome to {planet} *..*..*";
+            // }
+            // static bool IsPlutoADwarf()
+            // {
+            //     bool answer = true;
+            //     return answer;
+            // }
+            // static string CountThePlanets()
+            // {
+            //     return "8 planets, usually";
+            // }
+
+            // out
+            //     string ageAsString = "102";
+            //     string nameAsString = "Granny";
+            //     int ageAsInt;
+            //     bool outcome;
+            //     outcome = Int32.TryParse(ageAsString, out ageAsInt);
+            //     Console.WriteLine(outcome);
+            //     Console.WriteLine(ageAsInt);
+            //     int nameAsInt;
+            //     bool outcome2;
+            //     outcome2 = Int32.TryParse(nameAsString, out nameAsInt);
+            //     Console.WriteLine(outcome2);
+            //     Console.WriteLine(nameAsInt);
+
+            //     string statement = "GARRRR";
+            //     bool marker;
+            //     string murmur = Whisper(statement, out marker);
+            //     Console.WriteLine(murmur);
+            // }
+
+            // static string Whisper(string phrase, out bool wasWhisperCalled)
+            // {
+            //     wasWhisperCalled = true;
+            //     return phrase.ToLower();
+            // }
         }
     }
