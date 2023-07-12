@@ -75,3 +75,17 @@ method calls input
 - VisitPlanets(numberOfPlanets: 9);
 - In method overloading, multiple methods can have the same name, as long as they have different method signatures.
 - A method signature is a method’s name and parameter types in order.
+
+expression-bodied definitions
+We can rewrite this definition as an expression-bodied definition by:
+removing the curly braces and return keyword, and
+adding the “fat arrow”, or =>, which is composed of the equal sign, =, and greater than, >, symbols
+
+lambda expressions
+Generally lambda expressions with one expression (like the above example) take this form. They use the fat arrow, no curly braces, and no semicolon (;):
+(input-parameters) => expression
+Lambda expressions with more than one expression use curly braces and semicolon:
+(input-parameters) => { statement; }
+We just learned two new shortcuts “within” the lambda expression shortcut. Though we don’t need to use them all the time, we do need to recognize them in other developers’ code:
+1. We can remove the parameter type if it can be inferred
+2. We can remove the parentheses if there is one parameter

@@ -248,5 +248,37 @@
             //     wasWhisperCalled = true;
             //     return phrase.ToLower();
             // }
+
+            // c# methods
+            // expression-bodied defintions
+            //     Welcome("Earth");
+            //     double days = 500;
+            //     double rotations = DaysToRotations(days);
+            //     Console.WriteLine($"In {days} days, the Earth has rotated {rotations} time(s).");
+            // }
+            // static double DaysToRotations(double days) => days / 365;
+            // static void Welcome(string planet) =>
+            //   Console.WriteLine($"Welcome to {planet}!");
+
+            // methods as arguments
+            // Array to be used as first argument
+            string[] adjectives = { "rocky", "mountainous", "cosmic", "extraterrestrial" };
+            // Call Array.Find() and 
+            // Pass in the array and method as arguments
+            string firstLongAdjective = Array.Find(adjectives, IsLong());
+            Console.WriteLine($"The first long word is: {firstLongAdjective}.");
+
+            // lambda expressions
+
+            //     string[] spaceRocks = { "meteoroid", "meteor", "meteorite" };
+            //     bool makesContact = Array.Exists(spaceRocks, (string s) => s == "meteorite");
+            //     if (makesContact)
+            //     {
+            //         Console.WriteLine("At least one space rock has reached the Earth's surface!");
+            //     }
+            // } 
+            // shorter
+            // bool makesContact = Array.Exists(spaceRocks, s => s == "meteorite"); bcs s only return string so remove the type
         }
     }
+}
