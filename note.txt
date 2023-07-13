@@ -89,3 +89,10 @@ Lambda expressions with more than one expression use curly braces and semicolon:
 We just learned two new shortcuts “within” the lambda expression shortcut. Though we don’t need to use them all the time, we do need to recognize them in other developers’ code:
 1. We can remove the parameter type if it can be inferred
 2. We can remove the parentheses if there is one parameter
+
+editing arrays
+When we create the array with a known length but no known values, the array stores a default type value (0 for int, null for string). We then edit the array and swap out one of the default values with a new, specific value. In this case, we’re saying that at index 2 we want to swap the default value 0 for 8.
+We can also edit the values of pre-existing arrays. Again, we can’t add to the length of an existing array, but we can swap out values:
+int[] plantHeights = { 3, 4, 6 };
+// plantHeights will be [3, 5, 6]
+plantHeights[1] = 5; 

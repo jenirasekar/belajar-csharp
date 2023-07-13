@@ -1,3 +1,4 @@
 {
+  "dotnetAcquisitionExtension.installTimeoutValue": 500,
   "dotnet.defaultSolution": "belajar-csharp.sln"
 }
