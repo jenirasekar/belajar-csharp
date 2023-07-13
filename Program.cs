@@ -281,28 +281,28 @@
             // bool makesContact = Array.Exists(spaceRocks, s => s == "meteorite"); bcs s only return string so remove the type
 
             // define array 2 ways
-            string[] summerStrut;
-            summerStrut = new string[] { "Juice", "Missing U", "Raspberry Beret", "New York Groove", "Make Me Feel", "Rebel Rebel", "Despacito", "Los Angeles" };
-            int[] ratings = { 10, 9, 8, 7, 6, 5, 4, 3 };
-            Console.WriteLine($"Lagu {summerStrut[0]} dikasih rating {ratings[0]}");
-            // editing arrays
-            summerStrut[7] = "Science";
-            ratings[7] = 10;
-            // find and sort
-            int threeRating = Array.IndexOf(ratings, 3);
-            Console.WriteLine($"Song number {threeRating + 1} is rated three stars.");
-            string findName = Array.Find(summerStrut, song => song.Length > 10);
-            Console.WriteLine($"The first song that has more than 10 characters in the title is {findName}.");
-            Array.Sort(summerStrut);
-            string firstSong = summerStrut[0];
-            string lastSong = summerStrut[7];
-            Console.WriteLine($"The first song in the playlist is now {firstSong}.");
-            Console.WriteLine($"The last song in the playlist is now {lastSong}.");
-            // another methods
-            string[] summerStrutCopy = new string[7];
-            Array.Copy(summerStrut, summerStrutCopy, 7);
-            Array.Reverse(summerStrutCopy);
-            Array.Clear(ratings, 0, ratings.Length);
+            // string[] summerStrut;
+            // summerStrut = new string[] { "Juice", "Missing U", "Raspberry Beret", "New York Groove", "Make Me Feel", "Rebel Rebel", "Despacito", "Los Angeles" };
+            // int[] ratings = { 10, 9, 8, 7, 6, 5, 4, 3 };
+            // Console.WriteLine($"Lagu {summerStrut[0]} dikasih rating {ratings[0]}");
+            // // editing arrays
+            // summerStrut[7] = "Science";
+            // ratings[7] = 10;
+            // // find and sort
+            // int threeRating = Array.IndexOf(ratings, 3);
+            // Console.WriteLine($"Song number {threeRating + 1} is rated three stars.");
+            // string findName = Array.Find(summerStrut, song => song.Length > 10);
+            // Console.WriteLine($"The first song that has more than 10 characters in the title is {findName}.");
+            // Array.Sort(summerStrut);
+            // string firstSong = summerStrut[0];
+            // string lastSong = summerStrut[7];
+            // Console.WriteLine($"The first song in the playlist is now {firstSong}.");
+            // Console.WriteLine($"The last song in the playlist is now {lastSong}.");
+            // // another methods
+            // string[] summerStrutCopy = new string[7];
+            // Array.Copy(summerStrut, summerStrutCopy, 7);
+            // Array.Reverse(summerStrutCopy);
+            // Array.Clear(ratings, 0, ratings.Length);
         }
     }
 }
