@@ -345,6 +345,18 @@
                 }
             } while(!buttonClick);
             } */
+
+
+            // class and objects
+            // Forest f = new Forest(0);
+            Forest f = new()
+            {
+                name = "pelem",
+                biome = "kantil",
+                trees = 1,
+                age = 10
+            };
+            Console.WriteLine(f.name);
         }
     }
 }
