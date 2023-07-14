@@ -303,6 +303,48 @@
             // Array.Copy(summerStrut, summerStrutCopy, 7);
             // Array.Reverse(summerStrutCopy);
             // Array.Clear(ratings, 0, ratings.Length);
+
+            // for loop
+            //     for (int i = 1; i < 17; i++)
+            //     {
+            //         CreateTemplate(i);
+            //     }
+
+            // }
+            // static void CreateTemplate(int week)
+            // {
+            //     Console.WriteLine($"Week {week}");
+            //     Console.WriteLine("Announcements: \n \n \n ");
+            //     Console.WriteLine("Report Backs: \n \n \n");
+            //     Console.WriteLine("Discussion Items: \n \n \n");
+            // }
+
+            // foreach loop
+            //     string[] todo = { "respond to email", "make wireframe", "program feature", "fix bugs" };
+            //     foreach (string item in todo)
+            //     {
+            //         CreateTodoItem(item);
+            //     }
+            // }
+            // static void CreateTodoItem(string item)
+            // {
+            //     Console.WriteLine($"[] {item}");
+            // }
+
+            // jump statements
+            /* bool buttonClick = false;
+            int counter = 0;
+            do
+            {
+                Console.WriteLine("BLARRRRR");
+                counter++;
+                
+                if (counter == 3)
+                {
+                break;
+                }
+            } while(!buttonClick);
+            } */
         }
     }
 }
