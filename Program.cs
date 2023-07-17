@@ -356,7 +356,15 @@
             //     trees = 1,
             //     age = 10
             // };
+            // properties
             // Console.WriteLine(f.name);
+            // f.Name = "Congo";
+            // f.Trees = 0;
+            // f.age = 0;
+            // f.biome = "Tropical";
+
+            // Console.WriteLine(f.Name);
+
         }
     }
 }
