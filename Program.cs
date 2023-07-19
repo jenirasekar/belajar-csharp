@@ -365,6 +365,7 @@
 
             // Console.WriteLine(f.Name);
 
+            Forest.PrintTreeFacts();
         }
     }
 }

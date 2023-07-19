@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\my own project\\belajar-csharp\\belajar-csharp.csproj": {}
+    "C:\\my own project\\belajar-csharp\\belajar-csharp.csproj": {}
   },
   "projects": {
-    "c:\\my own project\\belajar-csharp\\belajar-csharp.csproj": {
+    "C:\\my own project\\belajar-csharp\\belajar-csharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\my own project\\belajar-csharp\\belajar-csharp.csproj",
+        "projectUniqueName": "C:\\my own project\\belajar-csharp\\belajar-csharp.csproj",
         "projectName": "belajar-csharp",
-        "projectPath": "c:\\my own project\\belajar-csharp\\belajar-csharp.csproj",
+        "projectPath": "C:\\my own project\\belajar-csharp\\belajar-csharp.csproj",
         "packagesPath": "C:\\Users\\ThinkPad T440s\\.nuget\\packages\\",
-        "outputPath": "c:\\my own project\\belajar-csharp\\obj\\",
+        "outputPath": "C:\\my own project\\belajar-csharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ThinkPad T440s\\AppData\\Roaming\\NuGet\\NuGet.Config"
