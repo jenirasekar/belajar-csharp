@@ -112,3 +112,10 @@ public static void Main() {
   Forest.Define(); 
 }
 A static class cannot be instantiated. Its members are accessed by the class name, like Math.PI
+
+interface
+In C#, we must first clearly announce that a class implements an interface using the colon syntax:
+class Sedan : IAutomobile
+{
+}
+This empty Sedan class “promises” to implement the IAutomobile interface. In other words, it must have the properties and methods the highway patrol asked for (Speed, LicensePlate, Wheels, and Honk()).
