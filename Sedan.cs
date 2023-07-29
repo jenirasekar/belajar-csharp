@@ -1,6 +1,6 @@
 namespace interfaces
 {
-    class Sedan : IAutomobile
+    class Sedan : Vehicle, IAutomobile
     {
         public string LicensePlate { get; }
         public double Speed { get; private set; }

@@ -1,6 +1,6 @@
 namespace interfaces
 {
-    class Truck : IAutomobile
+    class Truck : Vehicle, IAutomobile
     {
         public string LicensePlate
         { get; }
